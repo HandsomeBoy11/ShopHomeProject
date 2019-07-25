@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginTop="50px"
+    android:orientation="vertical"
+    android:padding="20px">
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50px"
+        android:text="标题"
+        android:textSize="46px"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="375px"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <RelativeLayout style="@style/linear_focus_one">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/brand_pic_first" />
+
+            <LinearLayout style="@style/brand_linear">
+
+                <TextView
+                    android:id="@+id/brand_first_title"
+                    style="@style/focus_text"
+                    android:text="独特设计 片假名系列" />
+
+                <LinearLayout style="@style/brand_linear_one">
+
+                    <TextView
+                        android:id="@+id/brand_first_lable"
+                        style="@style/focus_text_one"
+                        android:text="限量" />
+
+                    <TextView
+                        android:id="@+id/brand_second_lable"
+                        style="@style/focus_text_one"
+                        android:layout_marginLeft="20px"
+                        android:text="浪潮尖货" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/linear_focus_one"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/brand_pic_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout style="@style/brand_linear">
+
+                <TextView
+                    android:id="@+id/brand_second_title"
+                    style="@style/focus_text"
+                    android:text="独特设计 片假名系列" />
+
+                <LinearLayout style="@style/brand_linear_one">
+
+                    <TextView
+                        android:id="@+id/brand_third_lable"
+                        style="@style/focus_text_one"
+                        android:text="限量" />
+
+                    <TextView
+                        android:id="@+id/brand_fourth_lable"
+                        style="@style/focus_text_one"
+                        android:layout_marginLeft="20px"
+                        android:text="浪潮尖货" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/linear_focus_one">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/brand_pic_third"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout style="@style/brand_linear">
+
+                <TextView
+                    android:id="@+id/brand_third_title"
+                    style="@style/focus_text"
+                    android:text="独特设计 片假名系列" />
+
+                <LinearLayout style="@style/brand_linear_one">
+
+                    <TextView
+                        android:id="@+id/brand_fifth_lable"
+                        style="@style/focus_text_one"
+                        android:text="限量" />
+
+                    <TextView
+                        android:id="@+id/brand_sixth_lable"
+                        style="@style/focus_text_one"
+                        android:layout_marginLeft="20px"
+                        android:text="浪潮尖货" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
